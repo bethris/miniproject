@@ -69,7 +69,7 @@ if ((new RegExp(/austr*/gi)).test(person.profession)) {
 }
 
 // Add a class that lists people who died on the 13th of a month*
-if ((new RegExp(/13/gi)).test(person.day)) {
+if ((new RegExp(/11/gi)).test(person.day)) {
   row.classList.add('unlucky');
 }
 
