@@ -20,10 +20,20 @@ button {
   background-color: yellow;
 }
 
+}
+.chartreuseButton{
+  background-color: chartreuse;
+}
+
+}
+.pinkButton{
+  background-color: pink;
+}
+
 table, th, td {
   border: 1px solid black;
 }
 
 table {
-  margin-top: 15px; 
+  margin-top: 15px;
 }
