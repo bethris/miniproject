@@ -68,6 +68,11 @@ if ((new RegExp(/austr*/gi)).test(person.profession)) {
   row.classList.add('austr');
 }
 
+// Add a class that lists people who died on the 13th of a month*
+if ((new RegExp(/13/gi)).test(person.day)) {
+  row.classList.add('unlucky');
+}
+
 }
 
 // The below function will get called when the window finishes loading our data

@@ -17,6 +17,7 @@ button {
 }
 .blueButton{
   background-color: lightblue;
+
 }
 .yellowButton{
   background-color: #f6ff64;
@@ -32,6 +33,10 @@ button {
 
 .cyanButton{
   background-color: #00FFFF;
+}
+
+.silverButton {
+  background-color: #acacac;
 }
 
 table, th, td {
