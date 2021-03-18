@@ -1,6 +1,7 @@
 body {
-  background-image: url("https://i.imgur.com/bHqSrXw.png");
+  background-image: url("https://i.imgur.com/dmQKcT0.png");
   background-repeat: repeat;
+  background-color: #f0ffff;
   padding: 0 30px 0 30px;
 }
 
@@ -36,7 +37,8 @@ button {
 }
 
 .silverButton {
-  background-color: #acacac;
+  background-color: black;
+  color: white;
 }
 
 table, th, td {
