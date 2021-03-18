@@ -1,4 +1,6 @@
 body {
+  background-image: url("https://i.imgur.com/SNYZkBB.png");
+  background-repeat: repeat;
   padding: 0 30px 0 30px;
 }
 
@@ -8,7 +10,7 @@ button {
 }
 
 .redButton{
-  background-color: pink;
+  background-color: #DC143C;
 }
 .greenButton{
   background-color: lightgreen;
@@ -25,11 +27,11 @@ button {
 }
 
 .pinkButton{
-  background-color: fuchsia;
+  background-color: #FFC0CB;
 }
 
 .cyanButton{
-  background-color: cyan;
+  background-color: #00FFFF;
 }
 
 table, th, td {
