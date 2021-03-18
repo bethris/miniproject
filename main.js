@@ -49,7 +49,7 @@ function outputData(person) {
     row.classList.add('austria');
   }
   // Add a class to author
-  if ((new RegExp(/author|writer/gi)).test(person.profession)) {
+  if ((new RegExp(/author/gi)).test(person.profession)) {
     row.classList.add('author');
   }
 
@@ -58,9 +58,14 @@ if ((new RegExp(/american/gi)).test(person.profession)) {
   row.classList.add('american');
 }
 
-// Add a class to singers*
+// Add a class to people of authority (but not religious)*
 if ((new RegExp(/president|prince|archduke|minister|taoiseach/gi)).test(person.profession)) {
-  row.classList.add('singer');
+  row.classList.add('authority');
+}
+
+// Add a class that starts with Austr*
+if ((new RegExp(/austr*/gi)).test(person.profession)) {
+  row.classList.add('austr');
 }
 
 }

@@ -28,6 +28,10 @@ button {
   background-color: fuchsia;
 }
 
+.cyanButton{
+  background-color: cyan;
+}
+
 table, th, td {
   border: 1px solid black;
 }
