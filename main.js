@@ -58,7 +58,7 @@ if ((new RegExp(/american/gi)).test(person.profession)) {
   row.classList.add('american');
 }
 
-// Add a class to people of authority (but not religious)*
+// Add a class to people of authority (but not religious/spiritual)*
 if ((new RegExp(/president|prince|archduke|minister|taoiseach/gi)).test(person.profession)) {
   row.classList.add('authority');
 }
@@ -69,7 +69,7 @@ if ((new RegExp(/austr*/gi)).test(person.profession)) {
 }
 
 // Add a class that lists people who died on the 13th of a month*
-if ((new RegExp(/11/gi)).test(person.day)) {
+if ((new RegExp(/13/gi)).test(person.day)) {
   row.classList.add('unlucky');
 }
 
